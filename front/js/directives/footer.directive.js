@@ -1,0 +1,9 @@
+app.directive('footer',function(){
+    return{
+        restrict:'E',
+        scope:{
+            info:'='
+        },
+        templateUrl:'../html/footer.html'
+    }
+});
